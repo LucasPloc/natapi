@@ -1,4 +1,5 @@
 const express = require('express');
+const compression = require('compression');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const rateLimit = require('express-rate-limit');
@@ -49,6 +50,7 @@ app.use(
     ],
   })
 );
+app.use(compression());
 // Template routes
 app.use('/', viewRouter);
 //API Routes
