@@ -1,4 +1,4 @@
-# Node API
+# Node API with server-side website using Pug templates
 
 Built with: Node, Express, MongoDB, Mongoose and more.
 App on Heroku: https://hidden-peak-73467.herokuapp.com/
